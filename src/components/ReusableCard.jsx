@@ -3,10 +3,10 @@ function ReusableCard(props) {
     return (
         <article
             tabIndex="1"
-            className="article-card"
+            className="article-card, focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-lg bw-white shadow-sm hover:shadow-lg transition-shadow duration-200"
             aria-label={`Intérprete ${nombre}${esNota10 ? ', destacado' : ''}`}
         >
-            <figure>
+            <figure className="w-full aspect-square rounded-t-lg bg-gray-100 overflow-hidden">
                 <img src={foto} alt={`Foto de ${nombre}`}
                 loading="lazy" className="w-full h-full object-cover" />
                 <figcaption className="sr-only">{props.nombre}</figcaption>

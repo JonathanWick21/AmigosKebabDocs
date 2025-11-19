@@ -3,217 +3,157 @@ const peliculas = [
     id: 1,
     nombre: "El sexto sentido",
     director: "M. Night Shyamalan",
-    clasificacion: "Drama",
-    recaudacion: "$245 millones",
+    clasificacion: "Drama / Suspense",
+    recaudacion: "$672 millones",
     cartelera: "https://www.ecartelera.com/carteles/5400/5409/001.jpg",
     nota: 8,
     actores: [
       {
-        nombre: "Marlon Brando",
-        fechaNacimiento: "03/04/1924",
-        biografia: "Marlon Brando fue un influyente actor estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Marlon_Brando_publicity_for_One-Eyed_Jacks.png/270px-Marlon_Brando_publicity_for_One-Eyed_Jacks.png"
+        nombre: "Bruce Willis",
+        fechaNacimiento: "19/03/1955",
+        biografia: "Bruce Willis es un actor, productor y cantante estadounidense conocido por su papel en 'Jungla de cristal' y 'El sexto sentido'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruce_Willis_by_Gage_Skidmore_3.jpg/330px-Bruce_Willis_by_Gage_Skidmore_3.jpg"
       },
       {
-        nombre: "Al Pacino",
-        fechaNacimiento: "25/04/1940",
-        biografia: "Al Pacino es un actor y director de cine estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Al_Pacino.jpg/220px-Al_Pacino.jpg"
+        nombre: "Haley Joel Osment",
+        fechaNacimiento: "10/04/1988",
+        biografia: "Haley Joel Osment es un actor estadounidense conocido por su interpretaciÃ³n del niÃ±o que 've gente muerta' en 'El sexto sentido'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Haley_Joel_Osment_TIFF_2014.jpg/500px-Haley_Joel_Osment_TIFF_2014.jpg"
       },
       {
-        nombre: "James Caan",
-        fechaNacimiento: "26/03/1940",
-        biografia: "James Caan es un actor estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/James_Caan_Guillaume_Canet_Cannes_2013_cropped.jpg/220px-James_Caan_Guillaume_Canet_Cannes_2013_cropped.jpg"
-      },
-      {
-        nombre: "Robert Duvall",
-        fechaNacimiento: "05/01/1931",
-        biografia: "Robert Duvall es un actor y director estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_Duvall_by_David_Shankbone.jpg/250px-Robert_Duvall_by_David_Shankbone.jpg"
-      },
-      {
-        nombre: "Diane Keaton",
-        fechaNacimiento: "05/01/1946",
-        biografia: "Diane Keaton es una actriz estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Diane_Keaton_by_Firooz_Zahedi_2.jpg/250px-Diane_Keaton_by_Firooz_Zahedi_2.jpg"
+        nombre: "Toni Collette",
+        fechaNacimiento: "01/11/1972",
+        biografia: "Toni Collette es una actriz australiana nominada al Ã“scar por su papel en 'El sexto sentido'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Toni_Collette_%288968233309%29.jpg/330px-Toni_Collette_%288968233309%29.jpg"
       }
     ],
-    resumen: "El Dr. Malcom Crowe es un conocido psicÃ³logo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar..."
+    resumen: "El Dr. Malcolm Crowe, un psicÃ³logo infantil, trata de ayudar a un niÃ±o que afirma ver espÃ­ritus. Una inquietante historia sobre culpa y redenciÃ³n."
   },
   {
     id: 2,
     nombre: "Pulp Fiction",
-    director: "Tarantino",
-    clasificacion: "AcciÃ³n",
-    recaudacion: "$2.2 mil millones",
+    director: "Quentin Tarantino",
+    clasificacion: "Crimen / Comedia negra",
+    recaudacion: "$213 millones",
     cartelera: "https://www.ecartelera.com/carteles/200/286/001.jpg",
     nota: 9,
     actores: [
       {
-        nombre: "Leonardo DiCaprio",
-        fechaNacimiento: "11/11/1974",
-        biografia: "Leonardo DiCaprio es un actor y productor de cine estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/220px-Leonardo_Dicaprio_Cannes_2019.jpg"
+        nombre: "John Travolta",
+        fechaNacimiento: "18/02/1954",
+        biografia: "John Travolta es un actor estadounidense que interpretÃ³ a Vincent Vega en 'Pulp Fiction'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/John_Travolta_Cannes_2018.jpg/330px-John_Travolta_Cannes_2018.jpg"
       },
       {
-        nombre: "Kate Winslet",
-        fechaNacimiento: "05/10/1975",
-        biografia: "Kate Winslet es una actriz britÃ¡nica...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kate_Winslet_at_the_2017_Toronto_International_Film_Festival_%28cropped%29.jpg/220px-Kate_Winslet_at_the_2017_Toronto_International_Film_Festival_%28cropped%29.jpg"
+        nombre: "Uma Thurman",
+        fechaNacimiento: "29/04/1970",
+        biografia: "Uma Thurman es una actriz estadounidense que interpretÃ³ a Mia Wallace en 'Pulp Fiction'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Uma_Thurman_Cannes_2017_%28cropped%29.jpg/330px-Uma_Thurman_Cannes_2017_%28cropped%29.jpg"
       },
       {
-        nombre: "Billy Zane",
-        fechaNacimiento: "24/02/1966",
-        biografia: "Billy Zane es un actor y productor de cine estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Billy_Zane_Photo_Op_GalaxyCon_Raleigh_2019.jpg/220px-Billy_Zane_Photo_Op_GalaxyCon_Raleigh_2019.jpg"
-      },
-      {
-        nombre: "Kathy Bates",
-        fechaNacimiento: "28/06/1948",
-        biografia: "Kathy Bates es una actriz y directora estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kathy_Bates_2024.jpg/220px-Kathy_Bates_2024.jpg"
-      },
-      {
-        nombre: "Bill Paxton",
-        fechaNacimiento: "17/05/1955",
-        biografia: "Bill Paxton fue un actor y director de cine estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Bill_Paxton_in_July_2016_cropped_lighting_corrected_hue_correction.jpg/250px-Bill_Paxton_in_July_2016_cropped_lighting_corrected_hue_correction.jpg"
+        nombre: "Samuel L. Jackson",
+        fechaNacimiento: "21/12/1948",
+        biografia: "Samuel L. Jackson es un actor estadounidense que dio vida al icÃ³nico Jules Winnfield en 'Pulp Fiction'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/500px-SamuelLJackson.jpg"
       }
     ],
-    resumen: "Narrada de una forma no lineal, la historia principal cuenta la historia de Vincent Vega y Jules Winnfield..."
+    resumen: "Varios relatos entrelazados de criminales en Los Ãngeles, con diÃ¡logos ingeniosos, violencia estilizada y humor negro caracterÃ­stico de Tarantino."
   },
   {
     id: 3,
     nombre: "300",
     director: "Zack Snyder",
-    clasificacion: "AcciÃ³n",
-    recaudacion: "$213 millones",
-    cartelera: "https://www.ecartelera.com/carteles/1300/1370/001.jpg",
+    clasificacion: "AcciÃ³n / Ã‰pica",
+    recaudacion: "$456 millones",
+    cartelera: "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
     nota: 7,
     actores: [
       {
-        nombre: "John Travolta",
-        fechaNacimiento: "18/02/1954",
-        biografia: "John Travolta es un actor, bailarÃ­n y cantante estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/John_Travolta_cropped.jpg/220px-John_Travolta_cropped.jpg"
+        nombre: "Gerard Butler",
+        fechaNacimiento: "13/11/1969",
+        biografia: "Gerard Butler es un actor escocÃ©s que interpreta al rey LeÃ³nidas de Esparta en '300'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Gerard_Butler_%2829681162176%29.jpg/330px-Gerard_Butler_%2829681162176%29.jpg"
       },
       {
-        nombre: "Uma Thurman",
-        fechaNacimiento: "29/04/1970",
-        biografia: "Uma Thurman es una actriz y modelo estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Uma_Thurman_Cannes_2015_cropped.jpg/220px-Uma_Thurman_Cannes_2015_cropped.jpg"
-      },
-      {
-        nombre: "Samuel L. Jackson",
-        fechaNacimiento: "21/12/1948",
-        biografia: "Samuel L. Jackson es un actor y productor estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Samuel_L_Jackson_2015_cropped.jpg/220px-Samuel_L_Jackson_2015_cropped.jpg"
-      },
-      {
-        nombre: "Bruce Willis",
-        fechaNacimiento: "19/03/1955",
-        biografia: "Bruce Willis es un actor, productor y cantante estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bruce_Willis_2019_cropped.jpg/220px-Bruce_Willis_2019_cropped.jpg"
-      },
-      {
-        nombre: "Ving Rhames",
-        fechaNacimiento: "12/05/1959",
-        biografia: "Ving Rhames es un actor estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ving_Rhames_2019.jpg/220px-Ving_Rhames_2019.jpg"
+        nombre: "Lena Headey",
+        fechaNacimiento: "03/10/1973",
+        biografia: "Lena Headey es una actriz britÃ¡nica que interpreta a la reina Gorgo en '300'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Lena_Headey_%2847086135862%29_%28cropped%29.jpg/330px-Lena_Headey_%2847086135862%29_%28cropped%29.jpg"
       }
     ],
-    resumen: "Basada en la Ã©pica novela grÃ¡fica de Frank Miller, 300 narra la antigua Batalla de TermÃ³pilas..."
+    resumen: "Basada en la novela grÃ¡fica de Frank Miller, narra la batalla de las TermÃ³pilas donde 300 espartanos lucharon contra el ejÃ©rcito persa."
   },
   {
     id: 4,
     nombre: "El silencio de los corderos",
     director: "Jonathan Demme",
-    clasificacion: "Drama",
-    recaudacion: "$678 millones",
-    cartelera: "https://www.ecartelera.com/carteles/2500/2508/001.jpg",
-    nota: 8,
+    clasificacion: "Thriller / Crimen",
+    recaudacion: "$272 millones",
+    cartelera: "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+    nota: 9,
     actores: [
       {
-        nombre: "Tom Hanks",
-        fechaNacimiento: "09/07/1956",
-        biografia: "Tom Hanks es un actor y productor de cine estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Tom_Hanks_2014.jpg/220px-Tom_Hanks_2014.jpg"
+        nombre: "Jodie Foster",
+        fechaNacimiento: "19/11/1962",
+        biografia: "Jodie Foster es una actriz estadounidense ganadora del Ã“scar por su papel de Clarice Starling en 'El silencio de los corderos'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Jodie_Foster-8667.jpg/500px-Jodie_Foster-8667.jpg"
       },
       {
-        nombre: "Robin Wright",
-        fechaNacimiento: "08/04/1966",
-        biografia: "Robin Wright es una actriz estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Robin_Wright_2019.jpg/220px-Robin_Wright_2019.jpg"
-      },
-      {
-        nombre: "Gary Sinise",
-        fechaNacimiento: "17/03/1955",
-        biografia: "Gary Sinise es un actor, director y mÃºsico estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gary_Sinise_2012.jpg/220px-Gary_Sinise_2012.jpg"
-      },
-      {
-        nombre: "Sally Field",
-        fechaNacimiento: "06/11/1946",
-        biografia: "Sally Field es una actriz y directora estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sally_Field_2012.jpg/220px-Sally_Field_2012.jpg"
-      },
-      {
-        nombre: "Haley Joel Osment",
-        fechaNacimiento: "10/04/1988",
-        biografia: "Haley Joel Osment es un actor y productor estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Haley_Joel_Osment_2020.jpg/220px-Haley_Joel_Osment_2020.jpg"
+        nombre: "Anthony Hopkins",
+        fechaNacimiento: "31/12/1937",
+        biografia: "Anthony Hopkins es un actor galÃ©s cÃ©lebre por su interpretaciÃ³n del Dr. Hannibal Lecter.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/AnthonyHopkins10TIFF.jpg/500px-AnthonyHopkins10TIFF.jpg"
       }
     ],
-    resumen: "El FBI busca a un asesino en serie, le llaman Buffalo Bill..."
+    resumen: "La agente del FBI Clarice Starling busca la ayuda del brillante pero peligroso Dr. Hannibal Lecter para atrapar a un asesino en serie."
   },
   {
     id: 5,
     nombre: "Forrest Gump",
     director: "Robert Zemeckis",
-    clasificacion: "Comedia",
-    recaudacion: "$463 millones",
-    cartelera: "https://www.ecartelera.com/carteles/3400/3475/001.jpg",
-    nota: 9,
+    clasificacion: "Drama / Comedia",
+    recaudacion: "$678 millones",
+    cartelera: "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+    nota: 10,
     actores: [
       {
-        nombre: "Keanu Reeves",
-        fechaNacimiento: "02/09/1964",
-        biografia: "Keanu Reeves es un actor y productor de cine canadiense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Keanu_Reeves_2014.jpg/220px-Keanu_Reeves_2014.jpg"
+        nombre: "Tom Hanks",
+        fechaNacimiento: "09/07/1956",
+        biografia: "Tom Hanks es un actor estadounidense ganador del Ã“scar por interpretar a Forrest Gump.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg/330px-TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg"
       },
       {
-        nombre: "Carrie-Anne Moss",
-        fechaNacimiento: "21/08/1967",
-        biografia: "Carrie-Anne Moss es una actriz canadiense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Carrie-Anne_Moss_2019.jpg/220px-Carrie-Anne_Moss_2019.jpg"
+        nombre: "Robin Wright",
+        fechaNacimiento: "08/04/1966",
+        biografia: "Robin Wright es una actriz estadounidense que interpreta a Jenny Curran en 'Forrest Gump'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Robin_Wright_Cannes_2017_%28cropped%29.jpg/330px-Robin_Wright_Cannes_2017_%28cropped%29.jpg"
       }
     ],
-    resumen: "Forrest Gump es un tipo con discapacidades mentales, pero su persistencia y bondad le llevan a conseguir una gran fortuna..."
+    resumen: "Forrest Gump, un hombre con un corazÃ³n puro, vive una vida extraordinaria mientras se cruza con momentos clave de la historia de EE.UU."
   },
   {
     id: 6,
     nombre: "Concursante",
     director: "Rodrigo CortÃ©s",
     clasificacion: "Drama",
-    recaudacion: "$47 millones",
+    recaudacion: "$1.2 millones",
     cartelera: "https://www.ecartelera.com/carteles/1300/1364/001.jpg",
-    nota: 10,
+    nota: 7,
     actores: [
       {
-        nombre: "Jack Nicholson",
-        fechaNacimiento: "22/04/1937",
-        biografia: "Jack Nicholson es un actor y cineasta estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Jack_Nicholson_2010.jpg/220px-Jack_Nicholson_2010.jpg"
+        nombre: "Leonardo Sbaraglia",
+        fechaNacimiento: "30/06/1970",
+        biografia: "Leonardo Sbaraglia es un actor argentino que protagoniza 'Concursante' como MartÃ­n Circo MartÃ­n.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Leonardo_Sbaraglia_en_la_presentaci%C3%B3n_de_la_segunda_temporada_de_%E2%80%9C99%2C99%25._La_ciencia_de_las_Abuelas%E2%80%9D_%2816670703837%29_%28cropped%29.jpg/330px-Leonardo_Sbaraglia_en_la_presentaci%C3%B3n_de_la_segunda_temporada_de_%E2%80%9C99%2C99%25._La_ciencia_de_las_Abuelas%E2%80%9D_%2816670703837%29_%28cropped%29.jpg"
       },
       {
-        nombre: "Shelley Duvall",
-        fechaNacimiento: "07/07/1949",
-        biografia: "Shelley Duvall es una actriz estadounidense...",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Shelley_Duvall_2012.jpg/220px-Shelley_Duvall_2012.jpg"
+        nombre: "Miryam Gallego",
+        fechaNacimiento: "30/11/1976",
+        biografia: "Miryam Gallego es una actriz espaÃ±ola conocida por su papel de Lucrecia en la serie 'Ãguila Roja', asÃ­ como por sus trabajos en televisiÃ³n, teatro y cine. Ha participado tambiÃ©n en producciones como 'Periodistas' y 'Estoy vivo'.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Miryam_Gallego.jpg/330px-Miryam_Gallego.jpg"
       }
     ],
-    resumen: "MartÃ­n Circo MartÃ­n es el afortunado ganador del mayor concurso de la historia de la televisiÃ³n..."
+    resumen: "MartÃ­n Circo MartÃ­n gana el mayor concurso de televisiÃ³n de la historia, pero descubre que su fortuna no es lo que parece."
   }
 ];
 

@@ -1,4 +1,5 @@
-import MainContent from "../components/mainContent.jsx"
+import { Link } from "react-router-dom"
+import MainContent from "../components/MainContent.jsx"
 import ReusableCard from "../components/ReusableCard.jsx"
 import peliculas from "../data/peliculas.js"
 
@@ -8,17 +9,18 @@ function Peliculas() {
         <MainContent titulo = "Catálogo de películas">
             <p className="body-text">Listado</p>
 
-            <div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {
-                    peliculas.map( (titulo, index) =>
-                        <ReusableCard
-                        key={index}
-                            titulo={peliculas.nombre}
-                            foto={peliculas.cartelera}
-                            esNota10={peliculas.nota === 10}>
-                                {peliculas.resumen}
-                        </ReusableCard>
-
+                    peliculas.map( (pelicula, index) =>
+                        <Link to={"/details/$index"}>
+                            <ReusableCard
+                                key={index}
+                                nombre={pelicula.nombre}
+                                foto={pelicula.cartelera}
+                                esNota10={pelicula.nota === 10}>
+                                    {pelicula.resumen}
+                            </ReusableCard>
+                        </Link>
                     )
                 }
             </div>

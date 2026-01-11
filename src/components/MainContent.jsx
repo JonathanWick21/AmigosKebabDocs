@@ -14,18 +14,7 @@ function MainContent({ children, titulo }) {
                 {titulo && (
                     <h1
                         id="main-section-title"
-                        className="font-heading-h1 
-    text-[var(--color-black-3)] 
-    leading-[var(--heading-h1-line-height)] 
-    [text-shadow:0px_4px_4px_#00000040] 
-    text-4xl 
-    md:text-5xl 
-    font-extrabold 
-    mb-6 
-    underline 
-    decoration-4 
-    decoration-[var(--color-primary)]
-    underline-offset-4"
+                        className="main-title"
                     >
                         {titulo}
                     </h1>

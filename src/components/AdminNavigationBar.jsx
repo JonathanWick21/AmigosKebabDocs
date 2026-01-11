@@ -16,7 +16,7 @@ function AdminNavigationBar() {
                                 alt="Logo"
                                 className="w-10 h-10 object-contain"
                             />
-                            <h1 className="font-heading-h1 text-3xl md:text-4xl font-bold text-[var(--color-secondary)]">
+                            <h1 className="nav-title">
                                 Amigos Kebab
                             </h1>
                         </Link>
@@ -27,9 +27,9 @@ function AdminNavigationBar() {
                     ☰
                     </button>
                     <div className={`flex flex-col md:flex md:flex-row gap-4 ${open ? "block" : "hidden"} md:flex`}>
-                        <NavLink to="/" className="text-[var(--color-secondary)] hover:text-[var(--color-grey-3)]"  onClick={() => setOpen(false)} aria-label="Inicio">Inicio</NavLink>
-                        <NavLink to="/productos" className="text-[var(--color-secondary)] hover:text-[var(--color-grey-3)]" onClick={() => setOpen(false)} aria-label="Catalogo">Catálogo</NavLink>
-                        <NavLink to="/admin" className="text-[var(--color-secondary)] hover:text-[var(--color-grey-3)]" onClick={() => setOpen(false)} aria-label="Panel de administración">Admin</NavLink>
+                        <NavLink to="/" className="nav-link"  onClick={() => setOpen(false)} aria-label="Inicio">Inicio</NavLink>
+                        <NavLink to="/productos" className="nav-link" onClick={() => setOpen(false)} aria-label="Catalogo">Catálogo</NavLink>
+                        <NavLink to="/admin" className="nav-link" onClick={() => setOpen(false)} aria-label="Panel de administración">Admin</NavLink>
 
                     </div>
                 </nav>

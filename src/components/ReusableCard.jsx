@@ -1,3 +1,12 @@
+/**
+ * Componente de tarjeta reutilizable para mostrar productos del catálogo.
+ * * @param {Object} props - Propiedades del componente.
+ * @param {string} props.foto - URL de la imagen del producto (Accesibilidad: se usa en alt).
+ * @param {string} props.nombre - Título del producto.
+ * @param {number} props.precio - Precio del producto en euros.
+ * @param {React.ReactNode} props.children - Descripción corta del producto.
+ * @returns {JSX.Element} Una tarjeta con semántica de artículo y soporte para teclado.
+ */
 function ReusableCard(props) {
     const { foto, nombre, precio, children } = props;
     return (

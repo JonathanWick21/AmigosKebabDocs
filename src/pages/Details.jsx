@@ -7,6 +7,11 @@ function Details() {
     const navigate = useNavigate();
 
     const product = products.find( product => product.id === parseInt(id));
+
+    if (!product) {
+        return <div className="p-10 text-center">Producto no encontrado</div>;
+    }
+    
     return(
          <>
          

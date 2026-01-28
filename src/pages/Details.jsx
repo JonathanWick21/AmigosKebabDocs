@@ -38,7 +38,7 @@ function Details() {
           <h3 className="mt-4 text-lg font-semibold">Descripción</h3>
           <p className="mt-4 text-gray-700">{product.descripcion}</p>
           <h3 className="mt-4 text-lg font-semibold">Precio</h3>
-          <p className="mt-4 text-gray-700">{product.precio}</p>
+          <p className="mt-4 text-gray-700">{product.precio}€</p>
 
           
         </div>
